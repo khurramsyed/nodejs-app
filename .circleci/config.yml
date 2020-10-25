@@ -6,7 +6,7 @@ workflows:
       - test
 
 jobs:
-  build:
+  test:
     docker:
       - image: cimg/node:15.0.1
     steps:
