@@ -1,7 +1,6 @@
-variable  ami {
-    default     = "ami-0765d48d7e15beb93"
-    description = "AMI for the web server"
- }
+variable  webserver_amis {
+    type = map
+}
 
 
 variable access_key {

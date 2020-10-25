@@ -4,7 +4,6 @@ workflows:
   devops-deploy:
     jobs:
       - test
-
 jobs:
   test:
     docker:
